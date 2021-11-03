@@ -1,0 +1,77 @@
+body{
+    background-image:url(./sharadesert.jpg);
+}
+#header-right{
+   float: right;
+   margin-right:6em;
+}
+#camel-logo{
+    margin-top:2em;
+    margin-left:9em;
+    width:4em;
+    height:4em;
+}
+.elements{
+    margin-left:1em;
+    margin-right:1em;
+    font-size:20px;
+    color:white;
+    text-decoration:none;
+}
+.menu{
+   width:2em;
+   height:2em;
+   position:relative;
+   top:0.5em;
+   
+}
+#body{
+    display:flex;
+}
+#body-left{
+    color:white;
+    margin-left:4em;
+    margin-top:12em;
+}
+div #body-left h1 {
+    margin-left:0.9em;
+    margin-bottom:0;
+    font-size:6em;
+}
+div #body-left input{
+    border:1px solid white;
+    margin-left:6.2em;
+    border-radius:1.2em;
+    width:13em;
+    height:2.5em;
+}
+#body-right{
+    width:40em;
+    height:80em;
+    float:right;
+    margin-left:0.5em;
+}
+
+.pictures{
+    width:15em;
+    height:15em;
+    border-radius:1em;
+}
+.cards{
+    display: inline-block;
+    margin-left:1.5em;
+    margin-bottom:1.2em;
+}
+#card1{
+    position: relative;
+    width:15em;
+    height:15em;
+}
+#label1{
+    position: absolute;
+    bottom:2.5em;
+    left:4.2em;
+    color:white;
+    width:15em;
+    height:15em;
+}

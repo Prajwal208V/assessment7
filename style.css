@@ -1,0 +1,132 @@
+body{
+    background-image:url(./sharadesert.jpg);
+}
+
+/* header of the page */
+#header-right{
+   float: right;
+   margin-right:6em;
+}
+#camel-logo{
+    margin-top:2em;
+    margin-left:9em;
+    width:4em;
+    height:4em;
+}
+.elements{
+    margin-left:1em;
+    margin-right:1em;
+    font-size:20px;
+    color:white;
+    text-decoration:none;
+}
+.menu{
+   width:2em;
+   height:2em;
+   position:relative;
+   top:0.5em; 
+}
+
+/* boday of the page */
+#body{
+    display:flex;
+}
+/* body-left-part */
+#body-left{
+    color:white;
+    margin-left:4em;
+    margin-top:12em;
+}
+div #body-left h1 {
+    margin-left:0.9em;
+    margin-bottom:0;
+    font-size:6em;
+}
+div #body-left input{
+    border:1px solid white;
+    margin-left:6.2em;
+    border-radius:1.2em;
+    width:13em;
+    height:2.5em;
+}
+/* body-right-part */
+#body-right{
+    width:40em;
+    height:50em;
+    float:right;
+    margin-left:0.5em;
+    
+}
+.cards{
+    display:inline-block;
+    margin-left:1em;
+    margin-bottom:1.2em;
+    width:16em;
+    height:17em;
+    position: relative;
+}
+.pictures{
+    width:15em;
+    height:17em;
+    border-radius:1em;
+}
+
+.labels{
+    position: absolute;
+    bottom:0em;
+    left:0.4em;
+    color:azure;
+    width:12em;
+    height:12em;
+    margin-top:0;
+    margin-bottom:4.5em;
+}
+div .labels h5{
+    margin-bottom:0;
+    margin-top: 0;
+    font-size:1.2em;
+}
+div .labels p{
+    margin-bottom:0;
+    margin-top: 0;
+}
+@media screen and (max-width:800px){
+    #camel-logo{
+        float:center;
+    }
+    .elements{
+        float:center;
+        margin-left:6px;
+        margin-right:0;
+        color:blue;
+    }
+    #header-right{
+        margin-right:3em;
+    }
+    #body-left{
+        float:center;
+        margin-left:0;
+        margin-top:3em;
+    }
+    div #body-left h1{
+        font-size:3em;
+        margin-left:1em;  
+        color:red;
+    }
+    div #body-left pre{
+        position:relative;
+        right:7em;
+        color:black;
+        font-size:0.8em;
+    }
+    #body-right{
+        float:left;
+        position:relative;
+        right:31em;
+        top:18em;
+    }
+    .pictures{
+        width:15em;
+        height:18em;
+    }
+}
